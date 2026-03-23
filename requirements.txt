@@ -1,0 +1,39 @@
+# Zero-Null Vectorless RAG - Requirements
+# Install with: pip install -r requirements.txt
+
+# Async HTTP & Crawling
+aiohttp>=3.9.0
+httpx>=0.26.0
+playwright>=1.40.0
+
+# HTML Parsing & Processing
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+
+# LLM Integration (OpenAI SDK for local llama.cpp)
+openai>=1.12.0
+
+# Tokenization (for chunk splitting)
+transformers>=4.36.0
+
+# BM25 Lexical Search (fallback)
+rank-bm25>=0.2.2
+
+# Data Validation & Settings
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# API Server
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+
+# Utilities
+python-dotenv>=1.0.0
+structlog>=24.1.0
+tenacity>=8.2.0
+typer>=0.9.0
+rich>=13.7.0
+
+# Bloom Filter
+mmh3>=4.0.0
+bitarray>=2.9.0
