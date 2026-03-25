@@ -18,7 +18,7 @@ v-less/
 │   │   ├── __init__.py
 │   │   ├── bloom_filter.py         # URL deduplication (mmh3 + bitarray)
 │   │   ├── async_crawler.py        # aiohttp concurrent crawler
-│   │   └── js_renderer.py          # Playwright stealth renderer
+│   │   └── js_render.py          # Playwright stealth renderer
 │   ├── parser/
 │   │   ├── __init__.py
 │   │   ├── dom_pruner.py           # BeautifulSoup boilerplate removal
